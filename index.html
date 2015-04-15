@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WP Recreate</title>
+	<style type="text/css">
+		#wrapper {
+			width: 950px;
+			margin: 0 auto;
+		}
+		h1#brandName {
+			font-size: 15pt;
+			padding: 0 0 0 10px;
+		}
+		h1#brandName a {
+			text-decoration: none;
+			color: white;
+		}
+		.larger {
+			font-size: 1.4em;
+		}
+		#org {
+			color: #808080;
+		}
+		#special:hover{
+			text-shadow: 0 0 1px white, 0 0 1px white;
+		}
+		
+		a:hover {
+			color:white;
+		}
+		#current:hover {
+			color: #808080;
+		}
+		nav {
+			background-color: #4c4c4c;
+			overflow: hidden;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul li {
+			float: right;
+			margin: 0 10px 0 0;
+		}
+		nav ul li a {
+			display: block;
+			text-decoration: none;
+			color: #808080;
+			margin: 10px 5px 5px 5px;	
+		}
+		#active {
+			background-color: white;
+			border: 1px solid white;
+			border-radius: .25em .25em 0 0;
+			padding: -10px -5px 0 -5px;
+		}
+		#special {
+			color: white;
+			background-color: #E62E00;
+			border: 1px solid #E62E00;
+			border-radius: .25em .25em 0 0;
+			margin: 0 20px 0 0;
+			padding: -10px -5px 0 -5px;
+		}
+		li#special a { color: white; }
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<nav> 
+			<h1 id=brandName><a href="www.wordpress.come"><span class="larger">W</span>ORD<span class="larger">P</span>RESS<span id="org">.ORG</span></h1>
+			<ul>
+				<li id="special"><a href="#" title="download">Download</a></li>
+				<li><a href="#">Hosting</a></li>
+				<li><a href="#">Forums</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Docs</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Extend</a></li>
+				<li><a href="#">Showcase</a></li>
+				<li id="active"><a href="#" id="current">Home</a></li>
+			</ul>
+		</nav>
+	</div>	
+</body>
+</html>
